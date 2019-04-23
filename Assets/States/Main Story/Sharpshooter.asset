@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d18ef7c39fbdc441b0d820c3186248b, type: 3}
+  m_Name: Sharpshooter
+  m_EditorClassIdentifier: 
+  storyText: "You start shooting zombies getting closer to the officers at the station,
+    you fail sometimes since you haven't used a rifle before, you run out of ammo
+    and there still zombies at the entrance, the officer manages to kill the zombies
+    arround you and you start heading to the station, getting at the main door there
+    are still zombies you can:\r\n1. Climb through the wall to get inside .\r\n2.
+    Shoot your way through.."
+  nextStates:
+  - {fileID: 11400000, guid: 2897bd699b53e664e8bfb4c561829353, type: 2}
+  - {fileID: 11400000, guid: 53459f41321ad044ab9d4a119536ac65, type: 2}
+  sceneImage: {fileID: 21300000, guid: a2e642696b7f44c4bbc89a0d8a1042a5, type: 3}

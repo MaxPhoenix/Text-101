@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d18ef7c39fbdc441b0d820c3186248b, type: 3}
+  m_Name: Deadly Coffee
+  m_EditorClassIdentifier: 
+  storyText: "You manage to get into the Cafe, and block the main entrance door. The
+    place seems safe for the time being. and secure as well. You can hear the zombies
+    punching at the door to get in. But the door is sturdy enough to hold them off.
+    The officer gets a signal from the radio that they are evacuating civilians at
+    the police station, and that the last van will be out in an hour! You can see
+    that the back door leads to an alley that leads to the main street where the police
+    station is located, but the horde is headed that way. You can wait until it passes
+    by and get out from the front door to find another way, but you will lose time
+    to get to the evacuation vehicles.\r\nYou decide it's best to:\r\n\r\n1. Get through
+    the back door (may be quicker but dangerous to cross paths with the horde).\r\n2.
+    Wiait and get trough the front door"
+  nextStates:
+  - {fileID: 11400000, guid: ef40339dc5b6c734da198e165f22b4d3, type: 2}
+  - {fileID: 11400000, guid: c35690ad8145a1449b31e81c685abd0a, type: 2}
+  sceneImage: {fileID: 21300000, guid: a66ea231d60431249b04a16fdc39d858, type: 3}

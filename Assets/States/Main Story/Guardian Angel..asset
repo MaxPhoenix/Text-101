@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d18ef7c39fbdc441b0d820c3186248b, type: 3}
+  m_Name: Guardian Angel.
+  m_EditorClassIdentifier: 
+  storyText: "You shout to warn the officer, but now more zombies are coming to you,
+    and you are still trying to get free, the officer turns arround and makes a quick
+    shot in the zombie's head, and it was killed instantly, As you are trying to get
+    free, another zombie grabs your hand, and you push it away, but it gets up and
+    comes back for you. Feeling relieved of your warning, the rushes on your rescue,
+    shooting the zombies arround you and the one grabing you in the head. He thanks
+    you about you saving him and you thank him too . You see more zombies coming towards
+    you. You see you can hide in the Cafe or in a Pharmacy You see that the Pharmacy
+    can't be a good place to wait for the horde to pass by since it only has a glass
+    window that may not be sturdy enough, but may have supplies that may help.\r\n\r\nYou
+    decide to:\r\n1. Go into the pharmacy.(may give you less time to hide, but get
+    some supplies).\r\n2. Hide into the Cafe (safer but may have anything useful)"
+  nextStates:
+  - {fileID: 11400000, guid: 9a4d0958a57d7a743854e6454c36682e, type: 2}
+  - {fileID: 11400000, guid: 9f226d48204912a4b8a28a8d9823adb9, type: 2}
+  sceneImage: {fileID: 21300000, guid: ab951bf3dfeee6242a0cccf2c272b467, type: 3}

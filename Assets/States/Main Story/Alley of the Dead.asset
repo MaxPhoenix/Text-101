@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d18ef7c39fbdc441b0d820c3186248b, type: 3}
+  m_Name: Alley of the Dead
+  m_EditorClassIdentifier: 
+  storyText: "As you run trhough the back alley you can see zombies getting in your
+    direction, and since the alley is so narrow to pass by the zombies, the officer
+    gives you a gun to assist him. Then you hear a door slam back from the way you
+    came , there are zombies coming from the Cafe's back door, You can start shooting
+    the zombies coming from behind (there aren't that many) or assist the officer
+    shooting zombies coming from the main street \r\nYou decide it's best to:\r\n1.
+    Start shooting the zombies coming from the Cafe,\r\n2. Start shooting zombies
+    coming from the Main Street"
+  nextStates:
+  - {fileID: 11400000, guid: c35690ad8145a1449b31e81c685abd0a, type: 2}
+  - {fileID: 11400000, guid: 53459f41321ad044ab9d4a119536ac65, type: 2}
+  sceneImage: {fileID: 21300000, guid: c6725a69a25d84e4a8aaf438d9072a04, type: 3}

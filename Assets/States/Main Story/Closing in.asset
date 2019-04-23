@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d18ef7c39fbdc441b0d820c3186248b, type: 3}
+  m_Name: Closing in
+  m_EditorClassIdentifier: 
+  storyText: "After barely coming from the alley, you can see the police station a
+    few blocks away, and you can see in the distance coming towards the station and
+    some coming from the alley. You start running with the officer towards the police
+    station and you see some officers shooting zombies trying to breaking in the station.
+    You find a rifle on one of the corpses on the street, .\r\nYou decide it's best
+    to:\r\n\r\n1. Give the rifle to the officer while you protect him (he has more
+    experience)\r\n2. Keep the rifle to yourself and assist the officers while the
+    officer protects you"
+  nextStates:
+  - {fileID: 11400000, guid: 778cd5ed210120d4f9cab666e935f5e3, type: 2}
+  - {fileID: 11400000, guid: 928bc6a3915a0af4581fc66a578012ed, type: 2}
+  sceneImage: {fileID: 21300000, guid: a2e642696b7f44c4bbc89a0d8a1042a5, type: 3}

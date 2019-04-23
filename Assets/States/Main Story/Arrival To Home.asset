@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d18ef7c39fbdc441b0d820c3186248b, type: 3}
+  m_Name: Arrival To Home
+  m_EditorClassIdentifier: 
+  storyText: "Another day after university, you get out of the bus feeling troubled
+    about the exams and assigments that are close at hand. You decide to make a quick
+    stop at the Cafe on your way home, while getting there, you hear a gunshot coming
+    from the Cafe. As you get near, you see a police officer shooting some weird walking
+    people, but for some reason, the people seem to be inmune to the bullets. You
+    also notice that some of those people are eating alive people! You see one of
+    those monsters walking towards the officer from behind, as you run to warn the
+    officer, another monster crwaling out from under a car grabs your leg. You try
+    to get free but it won't let go, but the other monster is getting closer to the
+    officer. But if you shout to warn the officer you may attract some attention of
+    more monsters to yourself.\r\n\r\nWhat do you want to do?\r\n\r\n1. Warn the officer
+    (Shout at him)\r\n\r\n2.Struggle to get free. (The officer may die)"
+  nextStates:
+  - {fileID: 11400000, guid: 4f759987dc2998041809f9b7fc5ab043, type: 2}
+  - {fileID: 11400000, guid: 7bd778e685f888240b7fcc128034ba93, type: 2}
+  sceneImage: {fileID: 21300000, guid: ab951bf3dfeee6242a0cccf2c272b467, type: 3}

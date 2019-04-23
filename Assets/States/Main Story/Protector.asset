@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d18ef7c39fbdc441b0d820c3186248b, type: 3}
+  m_Name: Protector
+  m_EditorClassIdentifier: 
+  storyText: "You start shooting zombies getting closer to you as the officer assists
+    the others with the rifle, he has to turn arround from time to time to assist
+    you, since you aren't able to kill them all. After that you get to the station
+    and there are no zombies in there , so you get in and escape with the vehicles\r\n1.
+    Go to the end\r\n "
+  nextStates:
+  - {fileID: 11400000, guid: 2897bd699b53e664e8bfb4c561829353, type: 2}
+  sceneImage: {fileID: 21300000, guid: 2fa187a56a167174f890521b774cf1f3, type: 3}
